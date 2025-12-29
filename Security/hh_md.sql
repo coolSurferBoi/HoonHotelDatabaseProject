@@ -1,0 +1,6 @@
+CREATE SCHEMA [hh_md]
+    AUTHORIZATION [dbo];
+
+
+GO
+

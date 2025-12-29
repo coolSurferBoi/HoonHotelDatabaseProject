@@ -1,0 +1,4 @@
+CREATE SCHEMA [hh_rpt]
+    AUTHORIZATION [dbo];
+GO
+
