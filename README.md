@@ -64,7 +64,6 @@ erDiagram
         INT room_number PK
         INT room_code FK
         BIT is_booked
-        INT security_type_code
     }
 
     CUSTOMERS {
@@ -104,3 +103,4 @@ erDiagram
     ROOMS ||--o{ BOOKINGS : "assigned to"
     CUSTOMERS ||--o{ BOOKINGS : "makes"
     BOOKINGS ||--o{ BOOKING_AUDIT : "has changes"
+```
